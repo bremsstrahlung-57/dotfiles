@@ -132,3 +132,5 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 eval "$(zoxide init zsh)"
+export PATH=$PATH:$HOME/go/bin
+alias wgit='/mnt/d/Git/cmd/git.exe'
